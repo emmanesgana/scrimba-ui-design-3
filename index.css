@@ -3,7 +3,9 @@
 * {
     box-sizing: border-box;
 }
-html, body {
+
+html,
+body {
     margin: 0;
     padding: 0;
 }
@@ -14,7 +16,7 @@ body {
     padding: .5em;
     font-family: serif;
     height: 100vh;
-    text-align:center;
+    text-align: center;
 }
 
 header {
@@ -127,9 +129,11 @@ ul.data li p {
 ul.data li:last-child p {
     margin-bottom: 0;
 }
+
 ul.secondary {
     margin-top: 2em;
 }
+
 ul.secondary li p {
     font-size: 1.3em;
 }
@@ -151,8 +155,8 @@ nav {
 }
 
 main {
-   border: unset;
-} 
+    border: unset;
+}
 
 a {
     text-decoration: none;
@@ -184,6 +188,7 @@ nav {
 .inner-wrapper {
     padding: 1em;
 }
+
 .panel {
     padding: .5em 1em;
     margin-bottom: 2em;
@@ -197,10 +202,12 @@ nav {
         padding: 1em;
         text-align: left;
     }
+
     ul.data {
         display: flex;
         flex-wrap: wrap;
     }
+
     ul.data li {
         flex: 0 0 50%;
     }
@@ -210,12 +217,15 @@ nav {
     ul.data {
         justify-content: center;
     }
+
     .panel ul.data li {
         flex: 0 0 33%;
     }
+
     .panel ul.data li p {
         margin-bottom: 0;
     }
+
     nav {
         width: 40%;
     }
@@ -225,30 +235,74 @@ nav {
     body {
         padding: 1.5em;
     }
+
     .columns {
         display: flex;
     }
+
     .col {
         flex: 0 0 48%;
     }
+
     .secondary {
         margin-left: 3em;
     }
+
     ul.secondary {
         margin-top: 0;
     }
+
     nav {
         width: 30%;
     }
-    
+
 }
 
-@media (min-width: 0px) {
-    
+@media (min-width: 850px) {
+    body {
+        display: grid;
+        grid-template-columns: 200px auto;
+        grid-template-rows: 70px auto;
+        grid-template-areas:
+            "sidebar header"
+            "sidebar main";
+        padding: 0;
+    }
+
+    header,
+    main {
+        padding: 1.5em;
+    }
+
+    nav {
+        grid-area: sidebar;
+        opacity: 1;
+        visibility: unset;
+        transform: translateX(0);
+        width: 100%;
+        position: unset;
+
+    }
+
+    header {
+        grid-area: header;
+    }
+
+    main {
+        grid-area: main;
+    }
+
+    a.logo {
+        margin: 0;
+    }
+
+    svg {
+        display: none;
+    }
 }
 
 
- /*
+/*
 
 - White Space
 - Color 
@@ -266,6 +320,7 @@ nav {
 .width-container {
     display: none;
 }
+
 .display-width {
     display: block;
     position: absolute;
