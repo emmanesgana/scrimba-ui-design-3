@@ -3,11 +3,11 @@
 
 ## Screenshots
 
-[Desktop View](https://github.com/emmanesgana/scrimba-ui-design-3/blob/main/preview/desktop-dashboard.png)
+![Desktop View](https://github.com/emmanesgana/scrimba-ui-design-3/blob/main/preview/desktop-dashboard.png)
 
-[Tablet View](https://github.com/emmanesgana/scrimba-ui-design-3/blob/main/preview/tablet-dashboard.png)
+![Tablet View](https://github.com/emmanesgana/scrimba-ui-design-3/blob/main/preview/tablet-dashboard.png)
 
-[Mobile View](https://github.com/emmanesgana/scrimba-ui-design-3/blob/main/preview/mobile-dashboard.png)
+![Mobile View](https://github.com/emmanesgana/scrimba-ui-design-3/blob/main/preview/mobile-dashboard.png)
 
 ```
 $ yarn # npm install
