@@ -1,6 +1,13 @@
-# czkB6DfM
+# Demo
+[Click Here](https://scrimba-dashboard-ui.netlify.app/)
 
-Quick start:
+## Screenshots
+
+[Desktop View](https://github.com/emmanesgana/scrimba-ui-design-3/blob/main/preview/desktop-dashboard.png)
+
+[Tablet View](https://github.com/emmanesgana/scrimba-ui-design-3/blob/main/preview/tablet-dashboard.png)
+
+[Mobile View](https://github.com/emmanesgana/scrimba-ui-design-3/blob/main/preview/mobile-dashboard.png)
 
 ```
 $ yarn # npm install
