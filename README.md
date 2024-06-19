@@ -7,26 +7,18 @@
 
 ![Desktop View](https://github.com/emmanesgana/scrimba-ui-design-3/blob/main/preview/desktop-dashboard.png)
 
-### Tablet View
-
-![Tablet View](https://github.com/emmanesgana/scrimba-ui-design-3/blob/main/preview/tablet-dashboard.png)
+<details>
+  <summary>
+    ### Tablet View
+    
+    ![Tablet View](https://github.com/emmanesgana/scrimba-ui-design-3/blob/main/preview/tablet-dashboard.png)
+  </summary>
+</details>
 
 ### Mobile View
 
 ![Mobile View](https://github.com/emmanesgana/scrimba-ui-design-3/blob/main/preview/mobile-dashboard.png)
 
-
-```
-$ yarn # npm install
-$ yarn build # npm run build
-````
-
-## Development
-
-Run Webpack in watch-mode to continually compile the JavaScript as you work:
-
-```
-$ yarn watch # npm run watch
 ```
 
 ## About Scrimba
